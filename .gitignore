@@ -1,0 +1,7 @@
+lazy/
+*.luac
+lua/plugins/compiled.lua
+parser/
+*.plugins
+mason/
+lazy-lock.json
