@@ -38,7 +38,6 @@ vim.keymap.set("n", "<leader>r", function()
       file_no_ext,
       file_no_ext
     )
-  elseif ft == "haskell" then
   else
     vim.notify("No runner for filetype: " .. ft, vim.log.levels.WARN)
     return
